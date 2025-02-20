@@ -29,7 +29,7 @@ const useIssue = ( issueNumber: number) => {
     enabled: issueQuery.data !== undefined, // Sólo si IssueQuery tiene data
   })
 
-  console.log(issueQuery.data)
+  //console.log(issueQuery.data)
   return {
     issueQuery,
     commentsQuery
